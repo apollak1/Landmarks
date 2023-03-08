@@ -18,6 +18,7 @@
 		6E3F2B1A29B11A350045FB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3F2B1929B11A350045FB73 /* Assets.xcassets */; };
 		6E3F2B1D29B11A350045FB73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3F2B1C29B11A350045FB73 /* Preview Assets.xcassets */; };
 		6E4AC65F29B66F7900F3E5CC /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E4AC65E29B66F7900F3E5CC /* landmarkData.json */; };
+		6EEEFF4729B9087400EEE9A4 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEEFF4629B9087400EEE9A4 /* FavoriteButton.swift */; };
 		C3049BC429B29A1900EAF85F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3049BC329B29A1900EAF85F /* CircleImage.swift */; };
 		C3049BC629B29F9A00EAF85F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3049BC529B29F9A00EAF85F /* MapView.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		6E3F2B1C29B11A350045FB73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E3F2B1E29B11A350045FB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E4AC65E29B66F7900F3E5CC /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		6EEEFF4629B9087400EEE9A4 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		C3049BC329B29A1900EAF85F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		C3049BC529B29F9A00EAF85F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,11 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				6E3F2B1729B11A300045FB73 /* ContentView.swift */,
-				C3049BC329B29A1900EAF85F /* CircleImage.swift */,
-				C3049BC529B29F9A00EAF85F /* MapView.swift */,
-				6E3A8CEC29B652FF002334AA /* LandmarkRow.swift */,
-				6E3A8CEE29B65CE7002334AA /* LandmarkList.swift */,
-				6E3A8CF029B66148002334AA /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +98,8 @@
 			children = (
 				6E3F2B1529B11A300045FB73 /* LandmarksApp.swift */,
 				6E3A8CE629B65168002334AA /* Views */,
+				6EEEFF4929B90CA200EEE9A4 /* Landmarks */,
+				6EEEFF4829B90C5300EEE9A4 /* Helpers */,
 				6E3A8CE729B65188002334AA /* Model */,
 				C3F5254929B6902F0041B871 /* Resources */,
 				6E3F2B1929B11A350045FB73 /* Assets.xcassets */,
@@ -118,6 +117,26 @@
 				6E3A8CEB29B6527D002334AA /* Resources */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6EEEFF4829B90C5300EEE9A4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C3049BC329B29A1900EAF85F /* CircleImage.swift */,
+				C3049BC529B29F9A00EAF85F /* MapView.swift */,
+				6EEEFF4629B9087400EEE9A4 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6EEEFF4929B90CA200EEE9A4 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A8CEC29B652FF002334AA /* LandmarkRow.swift */,
+				6E3A8CEE29B65CE7002334AA /* LandmarkList.swift */,
+				6E3A8CF029B66148002334AA /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		C3F5254929B6902F0041B871 /* Resources */ = {
@@ -202,6 +221,7 @@
 				6E3F2B1829B11A300045FB73 /* ContentView.swift in Sources */,
 				C3049BC629B29F9A00EAF85F /* MapView.swift in Sources */,
 				6E3F2B1629B11A300045FB73 /* LandmarksApp.swift in Sources */,
+				6EEEFF4729B9087400EEE9A4 /* FavoriteButton.swift in Sources */,
 				6E3A8CEF29B65CE7002334AA /* LandmarkList.swift in Sources */,
 				6E3A8CF129B66148002334AA /* LandmarkDetail.swift in Sources */,
 				C3049BC429B29A1900EAF85F /* CircleImage.swift in Sources */,

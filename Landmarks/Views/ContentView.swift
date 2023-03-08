@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Landmarks
-//
-//  Created by Pollak, Andrew on 3/2/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -13,12 +6,9 @@ struct ContentView: View {
     }
 }
 
-
-
-
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }
