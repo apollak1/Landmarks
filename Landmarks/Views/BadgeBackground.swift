@@ -35,13 +35,12 @@ struct BadgeBackground: View {
                         )
                     )
                 }
-            }
+            }//BIG problem with lines 39-43 with xcode not recognizing they are together. It has to be typed with all of them scrunched up and THEN you can separate them as you see it on the tutorial.
             .fill(.linearGradient(
                 Gradient(colors: [Self.gradientStart, Self.gradientEnd]),
                 startPoint: UnitPoint(x: 0.5, y: 0),
                 endPoint: UnitPoint(x: 0.5, y: 0.6)
             ))
-            
         }
         .aspectRatio(1, contentMode: .fit)
     }

@@ -1,17 +1,10 @@
-//
-//  CircleImage.swift
-//  Landmarks
-//
-//  Created by Administrator on 3/3/23.
-//
-
 import SwiftUI
 
 struct CircleImage: View {
     var image: Image
     
     var body: some View {
-        image
+        image //There was a problem with the attributes on 15-16. What the tutorial showed didn't really work out. So I came up with the solution below. It works.
             .clipShape(Circle())
             .overlay(Circle().stroke(.white, lineWidth: 4))
         
