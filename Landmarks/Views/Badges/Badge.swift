@@ -7,7 +7,7 @@ struct Badge: View {
                 angle: .degrees(Double(index) / Double(8) * 360)
             )
         }
-            .opacity(0.5)
+        .opacity(0.5)
     }
     
     var body: some View {
